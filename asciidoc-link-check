@@ -28,6 +28,7 @@ function commaSeparatedCodesList(value, dummyPrevious) {
 }
 
 program
+  .allowExcessArguments()
   .option("-p, --progress", "show progress bar")
   .option(
     "-c, --config [config]",
